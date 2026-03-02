@@ -1,0 +1,52 @@
+File and Directory Commands:
+	pwd →Print working directory (shows current location).
+	ls →List files and directories.
+	ls -l →Detailed list (permissions, size, owner).
+	ls -a →Show hidden files too.
+	cd <directory> →Change directory.
+	cd .. →Go back one level.
+	mkdir <dirname> →Create new directory.
+	rmdir <dirname> →Remove empty directory.
+	rm -r <dirname> →Remove directory and contents.
+	exit →Logout or close terminal.
+Steps to Install Linux (Ubuntu) in Windows (via WSL):
+1. Open PowerShell (Admin) and run:
+2. wsl –install
+ 
+3. Wait for installation and select Ubuntu as your preferred distribution.
+ 
+4. After setup, launch Ubuntu from the Start Menu.
+5. Create a new Linux username and password.
+6. Test installation by running basic commands in Ubuntu.
+Some Basic Commands in Ubuntu:
+1. pwd
+o 	Shows the current location in the filesystem.
+o 	Example:
+o 	pwd
+o 	/home/student
+2. man pwd
+o 	Opens the manual page for the pwd command.
+o 	Example:
+o 	man pwd
+3. mkdir
+o 	Creates a new directory.
+o 	Example:
+o 	mkdir myfolder
+4. ls
+o 	Lists files and directories.
+o 	Example:
+o 	ls
+o 	Desktop Documents myfolder
+5. cat > file
+o 	Creates a new text file and adds content.
+o 	Example:
+o 	cat > notes.txt
+o 	(type text, press Ctrl+D to save)
+6. vi file
+o 	Opens file in vi editor.
+o 	Example:
+o 	vi notes.txt
+o 	Inside vi:
+▪	Press i →insert mode.
+▪	Press Esc →then type :wq →save and quit.
+  
